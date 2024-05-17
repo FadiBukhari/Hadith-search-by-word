@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poetsen One", sans-serif;
+}
+
+body {
+  scrollbar-width: none;
+  background: rgb(75, 73, 73);
+}
+.container {
+  border: 4px solid;
+  color: gray;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10% auto;
+  width: 1000px;
+
+  border-radius: 20px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  border-bottom: 2px solid gray;
+}
+.search-inner {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.search {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.hadith-name {
+  display: flex;
+  font-size: 40px;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  margin-top: 20px;
+}
+.hadith {
+  margin: 20px;
+  padding: 30px;
+  border: 2px solid gray;
+  border-radius: 20px;
+}
+.hadith-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.rawah {
+  margin-left: 150px;
+}
+.num {
+  margin-right: 260px;
+}
+.btn {
+  display: flex;
+  width: 90px;
+  border-top: 1px solid gray;
+  background-color: black;
+  color: gray;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.whole-hadith {
+  display: none;
+}
+.error-message {
+  display: flex;
+  justify-content: center;
+
+  margin: 60px 0;
+  color: rgb(56, 56, 56);
+  font-size: 30px;
+  font-weight: bold;
+}
+.morehadiths {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.previous {
+  display: flex;
+  width: 90px;
+  border-top: 1px solid gray;
+  background-color: black;
+  color: gray;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-left: 150px;
+}
+.next {
+  display: flex;
+  width: 90px;
+  border-top: 1px solid gray;
+  background-color: black;
+  color: gray;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-right: 200px;
+}
